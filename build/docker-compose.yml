@@ -1,11 +1,6 @@
 services:
     palworld-admin-tool:
-        build:
-            context: .
-            dockerfile: Dockerfile
-            args:
-                WWWGROUP: '1000'
-        image: sail-8.3/app
+        image: 'insaxyz/palworld-admin-tool:latest'
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         ports:
