@@ -12,6 +12,6 @@ A docker-compose setup for https://github.com/Insax/palworld-admin-tool
 2. `docker compose up -d`
 3. Visit http://localhost 
 
-If your palworld server also is inside a docker container you want to use dockers internal networking you have to connect it to the tools isolated network
+If your palworld server also is inside a docker container and you want to use dockers internal networking you have to connect it to the tools isolated network
 
 `docker network connect your-palworld-container-name palworld-admin_sail`
